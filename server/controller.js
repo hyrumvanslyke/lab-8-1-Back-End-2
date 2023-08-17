@@ -19,7 +19,7 @@ module.exports ={
         }
         houses.push(newHouse)
         houseID++
-        res.status(200).send(movies)
+        res.status(200).send(houses)
 
     },
     updateHouse: (req, res) => {
